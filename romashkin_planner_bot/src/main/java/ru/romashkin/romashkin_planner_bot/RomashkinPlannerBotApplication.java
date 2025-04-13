@@ -16,13 +16,6 @@ public class RomashkinPlannerBotApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RomashkinPlannerBotApplication.class, args); //Запускает наше Спринг приложение
-
-		String token = "7889737617:AAEEosnOKjR7R7HUwAQGYIHp4MUkwxU6Zk8";
-		TelegramBot bot = new TelegramBot(token);
-		System.out.println("Бот запущен");
-
-
-
 	}
 
 }
